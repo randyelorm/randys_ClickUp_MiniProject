@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+html {
+    box-sizing:border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+   
+}
+
+body {
+  padding:0rem;
+  margin: 0rem;
+}
+
+:root {
+    
+    --nav-hero-bgColor:#F7FAFD;
+    --text-heading-color:#212353;
+    --text-color: #61717B;
+
+     --purpleColor: #9C69E2;
+
+     --herotwo-bgColor: #FDE8F4;
+
+    --features-bgColor-one: #F0FAF8;
+    --features-bgColor-two: #F5F0FC;
+    --features-bgColor-three: #FDEFF8;
+    --features-bgColor-four:#EAF5FB;
+    --testimonials-bg-color: #9C69E2;
+
+    --pink-color: #F063B8;
+    
+}
+
+
+
+
+/* Nav */
+
+.nav {
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+     padding:2rem 4rem;
+     background-color: var(--nav-hero-bgColor);
+   
+}
+
+.nav_links {
+    display:flex;
+    gap: 3rem;
+}
+
+
+.hero {
+    background-color: var(--nav-hero-bgColor);
+    padding:0.1rem 4rem;
+    display: flex;
+
+}
+
+.hero-two {
+    margin:2rem 4rem;
+    display: flex;
+    background-color: #FDE8F4;
+    border-radius: 50px;
+
+}
+
+
+
+
+/* features */
+
+.features {
+    margin: 1rem 4rem;
+}
+
+.features-heading, .features-heading_text {
+    text-align: center;
+
+}
+
+.features-explained-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.features-explained-top_each {
+    display:flex;
+}
+
+.features-explained-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.features-explained-bottom_each {
+    display:flex;
+    gap: 1rem;
+}
+
+
+
+
+/* Testimonials */
+
+.testimonials {
+    margin: 1rem 4rem;
+  background-color: var(--testimonials-bg-color);
+}
+
+.testimonials-card-div {
+    display:flex;
+    gap: 3rem;
+  
+}
+
+
+.testimonials-heading {
+   text-align: center;
+}
+
+.testimonials-card {
+   
+    background-color: white;
+    margin: 3rem;
+    padding:1rem;
+    display: flex;
+
+}
+
+.card-img {
+    width: 20%;
+   
+ 
+    border-radius: 50%;
+}
+
+
+
+/* footer */
+
+footer {
+    margin: 1rem 4rem; 
+}
+
+.try {
+  display:flex;
+  justify-content: space-between;
+}
+
+
+
+
+.all-footer-links {
+    display:grid;
+    grid-template-columns: 2fr 1.5fr 1fr 1fr;
+}
