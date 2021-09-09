@@ -140,10 +140,13 @@ nav {
 
 .hero {
     padding: 6rem 2rem;
-   
+    display: flex;
+    flex-direction: column;   
+}
 
-    
-   
+.hero-image-div img {
+    margin-top:1rem;
+    width: 300px;
 }
 
 
