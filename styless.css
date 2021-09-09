@@ -141,14 +141,24 @@ nav {
 .hero {
     padding: 6rem 2rem;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    background-color: var(--nav-hero-bgColor);  
 }
 
 .hero-image-div img {
-    margin-top:1rem;
-    width: 300px;
+    margin-top:2rem;
+    width: 100%;
 }
 
+.hero-heading {
+  font-size: 2rem;
+  color:var(--text-heading-color)
+ }
+
+ .hero-info {
+     color:var(--text-color)
+ }
+ 
 
 .hero-learn-button {
     padding:0.8rem;
@@ -167,7 +177,9 @@ nav {
 
 
 
-@media only screen and (min-width:768px) { 
+
+
+@media only screen and (min-width:950px) { 
 
     .nav-toggle-icon{
       display:none;
@@ -200,8 +212,27 @@ nav {
 
  
 
+    .hero {
+        padding: 8rem 5rem;
+        display: flex;
+        flex-direction: row;   
+    }
+    
+
+    
+    .hero-heading {
+      font-size: 3.5rem;
+    }
 
 
+    .hero-image-div img {
+        margin-top:1rem;
+        width: 700px;
+    }
+
+
+    
+    
  
     
 
