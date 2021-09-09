@@ -140,33 +140,12 @@ nav {
 
 .hero {
     padding: 6rem 2rem;
-    display: flex;
-    flex-direction: column;
-    min-width:1200px; 
-    background-color:var(--nav-hero-bgColor);
-
+   
 
     
    
 }
 
-.hero-heading {
-   color:var(--text-heading-color);
-   font-size: 5rem;
-}
-
-.hero-info {
-   font-size: 2rem !important;
-}
-
-.hero-img-one{
-
-}
-
-.hero-info {
-    font-size: 1rem;
-    color:var(--text-color);
-}
 
 .hero-learn-button {
     padding:0.8rem;
@@ -220,28 +199,7 @@ nav {
 
 
 
-    .hero {
-      
-        display: flex;
-        flex-direction: row;   
-        padding : 6rem 5rem;
-    }
-
-
-
-    .hero-heading {
-        color:var(--text-heading-color);
-        font-size: 3rem;
-     }
-     
-     .hero-info {
-        font-size: 1rem !important;
-        line-height: 2rem;
-     }
-     
-     .hero-img-one{
-        width: 600px;
-     }
+ 
     
 
 
