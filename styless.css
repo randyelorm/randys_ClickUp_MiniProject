@@ -19,6 +19,8 @@ html {
 body {
   padding:0rem;
   margin: 0rem;
+  width:100%;
+  overflow-x: hidden;
 
     
 }
@@ -139,11 +141,13 @@ nav {
 /* hero */
 
 .hero {
-    padding: 6rem 2rem;
+    padding: 6rem 2rem 2rem 2rem;
     display: flex;
     flex-direction: column; 
     background-color: var(--nav-hero-bgColor);  
 }
+
+
 
 .hero-image-div img {
     margin-top:2rem;
@@ -167,6 +171,137 @@ nav {
     color:white;
     border-radius: 50px;
 }
+
+
+
+
+
+
+
+/* hero two */
+
+.herotwo {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column-reverse; 
+    background-color: var(--herotwo-bgColor);  
+}
+
+.herotwo-image-div img {
+ 
+    width: 100%;
+}
+
+.herotwo-heading {
+  font-size: 2rem;
+  color:var(--text-heading-color)
+ }
+
+ .herotwo-info {
+     color:var(--text-color)
+ }
+
+
+
+
+
+ /* features */
+
+ .features {
+     margin-top:2rem;
+
+ }
+
+
+.features-heading {
+    text-align: center;
+    color:var(--text-heading-color)
+}
+
+
+.features-description {
+    text-align: center;
+    color:var(--text-color)
+}
+
+.features-img {
+    margin-top: 2rem;
+}
+
+.features-post-top {
+    display:flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+     gap:1rem;
+    padding:3rem;
+
+}
+
+.features-post-bottom {
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 0rem 3rem;
+  
+}
+
+.features-post-top-each {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+
+.features-info-description {
+    color:var(--text-color)
+}
+
+.features-info-one {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    background-color: var(--features-bgColor-one);
+    padding:2rem;
+    border-radius: 50px;
+}
+
+.features-info-two {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    background-color: var(--features-bgColor-two);
+    padding:2rem;
+    border-radius: 50px;
+}
+
+.features-info-three {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    background-color: var(--features-bgColor-three);
+    padding:2rem;
+    border-radius: 50px;
+    
+}
+
+.features-info-four {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    background-color: var(--features-bgColor-four);
+    padding:2rem;
+    border-radius: 50px;
+    
+}
+
+
+
+
+
+
+
 
 
 
@@ -213,7 +348,7 @@ nav {
  
 
     .hero {
-        padding: 8rem 5rem;
+        padding: 8rem 5rem 2rem 5rem;
         display: flex;
         flex-direction: row;   
     }
@@ -227,12 +362,75 @@ nav {
 
     .hero-image-div img {
         margin-top:1rem;
-        width: 700px;
+      
+    }
+
+
+     
+    /* hero -two */
+
+    .herotwo {
+        margin: 3rem 4rem;
+        padding: 2rem 8rem;
+        display: flex;
+        gap: 4rem;
+        flex-direction: row;
+        border-radius: 50px; 
+          
+    }
+    
+
+    
+    .herotwo-heading {
+      font-size: 2rem;
+    }
+
+    .herotwo-description {
+        margin-top: 2rem;
+    }
+
+
+    .herotwo-image-div img {
+      
+        width: 350px;
     }
 
 
     
+
+
+    /* features */
+
+    .features-post-top {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        padding:3rem;
+    }
+
+    .features-post-top-each{
+        display:flex;
+        flex-direction: row;
+    }
+
+
+    .features-post-bottom {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
     
+        padding:3rem;
+    }
+
+    .features-post-bottom-each{
+        display:flex;
+        flex-direction: row;
+    }
+
+    
+
+
+  
+    
+   
  
     
 
