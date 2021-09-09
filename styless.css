@@ -151,17 +151,16 @@ nav {
 }
 
 .hero-heading {
-   color:var(--text-heading-color)
+   color:var(--text-heading-color);
+   font-size: 5rem;
 }
 
-.hero-description {
-    font-size: 1.5rem;
-
+.hero-info {
+   font-size: 2rem !important;
 }
 
+.hero-img-one{
 
-.hero-image{
-    width: 900px;
 }
 
 .hero-info {
@@ -220,19 +219,30 @@ nav {
  
 
 
-    .hero {
-        padding : 6rem 5rem;
-    }
-
-  
-
-  
 
     .hero {
       
         display: flex;
         flex-direction: row;   
+        padding : 6rem 5rem;
     }
+
+
+
+    .hero-heading {
+        color:var(--text-heading-color);
+        font-size: 3rem;
+     }
+     
+     .hero-info {
+        font-size: 1rem !important;
+        line-height: 2rem;
+     }
+     
+     .hero-img-one{
+        width: 600px;
+     }
+    
 
 
  
