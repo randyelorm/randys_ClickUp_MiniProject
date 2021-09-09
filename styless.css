@@ -51,10 +51,11 @@ body {
 header {
     margin: 0;
     position: fixed;
-    width: 100%;
-     z-index: 999;
+    min-width: 100%;
+     z-index: 9999999;
      background-color:var(--nav-hero-bgColor);
      padding:1rem;
+     border-bottom: 1px solid var(--nav-hero-bgColor);
   
 }
 
@@ -63,6 +64,7 @@ header {
 nav {
     background-color:var(--nav-hero-bgColor);
     position: absolute;
+    z-index: 9999999;
     top:100%;
     left:0;
     width: 100%;
@@ -131,6 +133,59 @@ nav {
 }
 
 
+
+
+
+/* hero */
+
+.hero {
+    padding: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    min-width:1200px; 
+    background-color:var(--nav-hero-bgColor);
+
+
+    
+   
+}
+
+.hero-heading {
+   color:var(--text-heading-color)
+}
+
+.hero-description {
+    font-size: 1.5rem;
+
+}
+
+
+.hero-image{
+    width: 900px;
+}
+
+.hero-info {
+    font-size: 1rem;
+    color:var(--text-color);
+}
+
+.hero-learn-button {
+    padding:0.8rem;
+    background-color: var(--purpleColor);
+    border:none;
+    color:white;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width:768px) { 
 
     .nav-toggle-icon{
@@ -164,11 +219,20 @@ nav {
 
  
 
-  
+
+    .hero {
+        padding : 6rem 5rem;
+    }
 
   
 
+  
 
+    .hero {
+      
+        display: flex;
+        flex-direction: row;   
+    }
 
 
  
