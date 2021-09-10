@@ -223,6 +223,7 @@ nav {
     color:var(--text-color)
 }
 
+
 .each_features-img {
     margin-top: 2rem;
 }
@@ -277,13 +278,18 @@ nav {
 }
 
 .each_features_info {
+    padding:0rem 1rem;
+   
     transform:skew(20deg);
     display:flex;
     flex-direction: column;
     gap:2rem;
 }
 
-
+.each_features-info-heading {
+    color:var(--text-heading-color);
+    font-size: 1.5rem;
+}
 
 .each_feature-bg-color-one {
     background-color: var(--features-bgColor-one);
